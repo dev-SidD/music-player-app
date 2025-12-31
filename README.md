@@ -177,17 +177,3 @@ ECE @ IIIT Kota
 Passionate about Full-Stack Development 🚀
 
 
----
-
-### ✅ What to do now
-1. Copy everything above
-2. Paste into `README.md`
-3. Commit & push
-
-If you want next:
-- 📸 Screenshot section
-- 🏷️ GitHub repo description
-- 📱 Play Store-ready README
-- 🎨 App logo & banner
-
-Just tell me 👍

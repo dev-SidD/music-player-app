@@ -26,6 +26,7 @@ The app supports searching and playing songs, albums, artists, and playlists wit
 
 src/
 ├── components/ # Reusable UI components
+
 │ ├── SongCard.tsx
 
 │ ├── AlbumCard.tsx
@@ -37,7 +38,9 @@ src/
 │ ├── MiniPlayer.tsx
 
 │ └── AppTopHeader.tsx
+
 │
+
 ├── screens/ # App screens
 
 │ ├── HomeScreen.tsx
@@ -55,25 +58,35 @@ src/
 │ ├── ArtistSongsScreen.tsx
 
 │ └── PlayerScreen.tsx
+
 │
+
 ├── store/ # Global state (Zustand)
 
 │ └── playerStore.ts
+
 │
+
 ├── navigation/ # Navigation setup
 
 │ └── AppNavigator.tsx
+
 │
+
 ├── theme/ # Colors & spacing
 
 │ ├── colors.ts
 
 │ └── spacing.ts
+
 │
+
 ├── utils/ # Helpers
 
 │ └── htmlDecoder.ts
+
 │
+
 └── App.tsx
 
 ---

@@ -24,70 +24,41 @@ The app supports searching and playing songs, albums, artists, and playlists wit
 
 ## 🧱 Architecture Overview
 
+```text
 src/
 ├── components/ # Reusable UI components
-
 │ ├── SongCard.tsx
-
 │ ├── AlbumCard.tsx
-
 │ ├── ArtistCard.tsx
-
 │ ├── PlaylistCard.tsx
-
 │ ├── MiniPlayer.tsx
-
 │ └── AppTopHeader.tsx
-
 │
-
 ├── screens/ # App screens
-
 │ ├── HomeScreen.tsx
-
 │ ├── AlbumsScreen.tsx
-
 │ ├── ArtistsScreen.tsx
-
 │ ├── PlaylistsScreen.tsx
-
 │ ├── AlbumDetailScreen.tsx
-
 │ ├── PlaylistDetailScreen.tsx
-
 │ ├── ArtistSongsScreen.tsx
-
 │ └── PlayerScreen.tsx
-
 │
-
 ├── store/ # Global state (Zustand)
-
 │ └── playerStore.ts
-
 │
-
 ├── navigation/ # Navigation setup
-
 │ └── AppNavigator.tsx
-
 │
-
 ├── theme/ # Colors & spacing
-
 │ ├── colors.ts
-
 │ └── spacing.ts
-
 │
-
 ├── utils/ # Helpers
-
 │ └── htmlDecoder.ts
-
 │
-
 └── App.tsx
+```
 
 ---
 
